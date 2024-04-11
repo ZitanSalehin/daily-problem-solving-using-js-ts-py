@@ -11,6 +11,5 @@ class Child {
 const Mark = new Child('Five years,', 'St. Peters Area,');
 const Brian = new Child('Seven years,', 'Karibu Estate,');
 
-console.log(Mark);
 console.log(Mark.location);
 console.log(Brian.age, Brian.location);
