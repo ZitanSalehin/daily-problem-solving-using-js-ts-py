@@ -1,18 +1,16 @@
-// Write an algorithm that takes an array and moves all of the zeros to the end, preserving the order of the other elements.
-
-function moveZeros(array) {
-    array.sort((a, b) => {
+function moveZerosType(array) {
+    array.sort(function (a, b) {
         if (a === 0 && b !== 0) {
             return 1;
-        } else if (a !== 0 && b === 0) {
+        }
+        else if (a !== 0 && b === 0) {
             return -1;
-        } else {
+        }
+        else {
             return 0;
         }
     });
-    
     return array;
 }
-
-let result = moveZeros([false, 1, 0, 1, 2, 0, 1, 3, "a"]);
-console.log(result);
+var movedArray = moveZerosType([false, 1, 0, 1, 2, 0, 1, 3, "a"]);
+console.log(movedArray);
