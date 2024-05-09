@@ -10,5 +10,4 @@ function sumOfPositives(numbers) {
     return sum;
 }
 
-// Example usage:
 console.log(sumOfPositives([1, -4, 7, 12, 10]));
