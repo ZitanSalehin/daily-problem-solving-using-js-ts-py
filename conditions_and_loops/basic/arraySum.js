@@ -11,4 +11,4 @@ function sumOfPositives(numbers) {
 }
 
 // Example usage:
-console.log(sumOfPositives([1, -4, 7, 12]));
+console.log(sumOfPositives([1, -4, 7, 12, 10]));
